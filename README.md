@@ -25,6 +25,8 @@ Dependiendo del desktop environment (Gnome, XFCE, KDE, etc), la ubicación de es
 
 Generalmente en el panel de configuración o en el menú de aplicaciones hay una opción llamada "Aplicaciones preferidas" y desde ahí puede elegirse el navegador por defecto. Seleccionar  `/usr/local/bin/choosebrowser`
 
+![](default_browser.png)
+
 ## Actualizar
 
 Se puede hacer pull del depositorio para bajar nuevas versiones del script, pero tener en cuenta que si se modificaron valores en la configuración, existe la posibilidad de que surjan conflictos al hacer merge de los cambios, aunque no deberían ser muy graves.
