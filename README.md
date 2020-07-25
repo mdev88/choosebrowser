@@ -13,7 +13,7 @@ Un script Bash minimalista que permite elegir el navegador a utilizar cuando se 
 ### Clonar repositorio y crear soft link
 
 ```
-$ git clone <repo url>
+$ git clone git@github.com:mdev88/choosebrowser.git
 $ cd choosebrowser
 $ chmod +x choosebrowser.sh
 $ sudo ln -s choosebrowser.sh /usr/local/bin/choosebrowser
