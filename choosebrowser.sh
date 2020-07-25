@@ -20,16 +20,12 @@ CHROME=/usr/bin/google-chrome-stable
 browsers["Chrome"]=Chrome:1
 
 ## Chromium
-#CHROMIUM=/path/to/chromium
+#CHROMIUM=/usr/lib/chromium-browser
 #browsers["Chromium"]=Chromium:2
 
 ## Brave browser
-#BRAVE=/path/to/brave
+#BRAVE=/usr/bin/brave-browser
 #browsers["Brave"]=Brave:3
-
-## Safari
-#SAFARI=/path/to/safari
-#browsers["Safari"]=Safari:4
 
 
 ###  FIN DE LA CONFIGURACIÓN  ###
@@ -86,8 +82,4 @@ fi
 
 if [ $ANSWER -eq 3 ]; then
 	$BRAVE $LINK &
-fi
-
-if [ $ANSWER -eq 4 ]; then
-	$SAFARI $LINK &
 fi

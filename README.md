@@ -4,11 +4,20 @@
 
 Un script Bash minimalista que permite elegir el navegador a utilizar cuando se abre un link.
 
-## Dependencias
+## Navegadores preconfigurados
 
-- yad (`sudo apt install yad`)
+- Firefox
+- Google Chrome
+- Chromium
+- Brave Browser
+
+Se pueden configurar otros navegadores siguiendo el formato de configuración de los otros.
 
 ## Instalación
+
+### Dependencias
+
+- yad (`sudo apt install yad`)
 
 ### Clonar repositorio y crear soft link
 
