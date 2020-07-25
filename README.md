@@ -25,7 +25,7 @@ Se pueden configurar otros navegadores siguiendo el formato de configuración de
 $ git clone git@github.com:mdev88/choosebrowser.git
 $ cd choosebrowser
 $ chmod +x choosebrowser.sh
-$ sudo ln -s choosebrowser.sh /usr/local/bin/choosebrowser
+$ sudo ln -s ~/choosebrowser/choosebrowser.sh /usr/local/bin/choosebrowser
 ```
 
 ### Definir choosebrowser como navegador por defecto
